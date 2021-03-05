@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GPL-2.0"
+[[mods]]
+modId="pfm-redo"
+version="${file.jarVersion}"
+displayName="PFM"
+logoFile="logo.png"
+credits="Idealism Incinerator (IIncinerator)"
+authors="IdealismIncinerator"
+description='''
+    (PFM/Politics-Free Mine)
+    Removes all political messages from Minecraft mods.
+    No politics in my mine!
+'''
+[[dependencies.pfm-redo]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pfm-redo]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
